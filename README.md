@@ -32,11 +32,11 @@ This is a simple RESTful API built with **Node.js**, **Express.js**, and **Mongo
 ### Installation
 
 1. Clone this repository:
-
    ```bash
    git clone https://github.com/saifeldeen911/user-api.git
    cd user-api
    ```
+````
 
 2. Install dependencies:
 
@@ -137,4 +137,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 
 ```
-````
