@@ -36,6 +36,10 @@ This is a simple RESTful API built with **Node.js**, **Express.js**, and **Mongo
    git clone https://github.com/saifeldeen911/user-api.git
    cd user-api
    ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2ac07e32b0672bffe4c956f67cb3b3ba81d7acbc
 
 2. Install dependencies:
 
@@ -132,7 +136,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Saifeldeen khalaf**
 - **GitHub**: [@saifeldeen911](https://github.com/saifeldeen911)
 - **LinkedIn**: [Saifeldeen Mohamed Khalaf](https://www.linkedin.com/in/saifeldeen-mohamed-khalaf/)
-
-```
 
 ```
