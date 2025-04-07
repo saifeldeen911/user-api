@@ -1,4 +1,4 @@
-```markdown
+````markdown
 # User Management API
 
 This is a simple RESTful API built with **Node.js**, **Express.js**, and **MongoDB** for user registration, login, and profile management. It demonstrates authentication using **JWT (JSON Web Token)** and password hashing with **bcryptjs**.
@@ -32,17 +32,20 @@ This is a simple RESTful API built with **Node.js**, **Express.js**, and **Mongo
 ### Installation
 
 1. Clone this repository:
+
    ```bash
-   git clone https://github.com/yourusername/user-api.git
+   git clone https://github.com/saifeldeen911/user-api.git
    cd user-api
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create a `.env` file in the root of the project and add your environment variables:
+
    ```env
    PORT=5000
    MONGO_URI=mongodb://127.0.0.1:27017/user_api
@@ -50,6 +53,7 @@ This is a simple RESTful API built with **Node.js**, **Express.js**, and **Mongo
    ```
 
 4. Start the application:
+
    ```bash
    npm run dev
    ```
@@ -59,6 +63,7 @@ This is a simple RESTful API built with **Node.js**, **Express.js**, and **Mongo
 ## API Endpoints
 
 ### 1. **POST** `/api/users/register`
+
 - **Description**: Register a new user
 - **Request Body**:
   ```json
@@ -81,6 +86,7 @@ This is a simple RESTful API built with **Node.js**, **Express.js**, and **Mongo
   ```
 
 ### 2. **POST** `/api/users/login`
+
 - **Description**: Login with email and password
 - **Request Body**:
   ```json
@@ -97,6 +103,7 @@ This is a simple RESTful API built with **Node.js**, **Express.js**, and **Mongo
   ```
 
 ### 3. **GET** `/api/users/profile`
+
 - **Description**: Get the profile of the logged-in user (requires authentication)
 - **Headers**:
   - `Authorization: Bearer <your_jwt_token>`
@@ -128,3 +135,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **LinkedIn**: [Saifeldeen Mohamed Khalaf](https://www.linkedin.com/in/saifeldeen-mohamed-khalaf/)
 
 ```
+
+```
+````
