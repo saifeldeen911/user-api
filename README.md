@@ -1,4 +1,3 @@
-````markdown
 # User Management API
 
 This is a simple RESTful API built with **Node.js**, **Express.js**, and **MongoDB** for user registration, login, and profile management. It demonstrates authentication using **JWT (JSON Web Token)** and password hashing with **bcryptjs**.
@@ -136,4 +135,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ```
 
-```
+
